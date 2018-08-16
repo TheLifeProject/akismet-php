@@ -1,20 +1,26 @@
 {
-    "name": "antoniotajuelo/akismet-php",
+    "name": "thelifeproject/akismet-php",
     "description": "Stop spam from hitting your website comments or content using Akismet.",
     "keywords": ["akismet","spam","antispam","spam filter"],
-    "homepage": "https://github.com/antoniotajuelo/akismet-php",
+    "homepage": "https://github.com/thelifeproject/akismet-php",
     "license": "MIT",
     "authors": [
+        {
+            "name": "James Warkentin",
+            "email": "james@warkensoft.net",
+            "homepage": "https://warkensoft.net/",
+            "role": "Developer"
+        },
         {
             "name": "Antonio Tajuelo",
             "email": "atajuelo@gmail.com",
             "homepage": "https://www.antoniotajuelo.com/",
-            "role": "Developer"
+            "role": "Original Developer"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "guzzlehttp/guzzle": "6.2.0"
+        "guzzlehttp/guzzle": ">6.2"
     },
     "autoload": {
         "psr-4": {
