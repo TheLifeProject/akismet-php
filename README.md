@@ -1,13 +1,17 @@
 # akismet-php
 Stop spam from hitting your website comments or content using Akismet.
 
+Based on the great little package by Antonio Tajuelo. The original seems unmaintained
+and since at the time of writing there are new releases of guzzle, composer.json
+has been updated to pull in the new versions.
+
 ## Getting Started
 
 First, get your Akismet key (if you still do not have one) from here: https://akismet.com/
 
 Then install the package using Composer and add this line to your ```require``` statement.
 ```json
-"antoniotajuelo/akismet-php": "0.0.1"
+"thelifeproject/akismet-php": "0.0.2"
 ```
 
 And finally run from terminal:
