@@ -9,6 +9,19 @@ has been updated to pull in the new versions.
 
 First, get your Akismet key (if you still do not have one) from here: https://akismet.com/
 
+Add this package as a custom VCS package as documented here:
+https://getcomposer.org/doc/05-repositories.md#vcs
+
+Use something like the following:
+```json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thelifeproject/akismet-php"
+        }
+    ],
+```
+
 Then install the package using Composer and add this line to your ```require``` statement.
 ```json
 "thelifeproject/akismet-php": "0.0.2"
